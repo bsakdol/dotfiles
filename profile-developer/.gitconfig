@@ -1,0 +1,19 @@
+[user]
+    name = Bradley Sakdol
+    email = 1362081+bsakdol@users.noreply.github.com
+    username = bsakdol
+
+[includeIf "gitdir:~/projects/github/"]
+    path = ~/projects/github/.gitconfig
+
+[includeIf "gitdir:~/projects/ghe/"]
+    path = ~/projects/ghe/.gitconfig
+
+[commit]
+    template = ~/.gitmessage
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = code --wait
