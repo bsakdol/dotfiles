@@ -33,4 +33,4 @@ export PATH=$PATH:$HOME/.tfenv/bin
 export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Microsoft/Edge/Application/msedge.exe
 
 # Python UV
-eval "$(uv generate-shell-completion bash)"
+# eval "$(uv generate-shell-completion bash)"
