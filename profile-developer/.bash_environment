@@ -18,7 +18,7 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin:$GOBIN
 
 # oh-my-posh terminal prompt
-if [ -f /usr/local/bin/oh-my-posh ] && [ "$TERM_PROGRAM" != "vscode" ]; then
+if [ -f /home/linuxbrew/.linuxbrew/bin/oh-my-posh ] && [ "$TERM_PROGRAM" != "vscode" ]; then
     eval "$(oh-my-posh --init --shell bash --config ~/.poshthemes/meridian-2.omp.json)"
 
 else
