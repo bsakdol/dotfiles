@@ -1,4 +1,5 @@
 tap "jandedobbeleer/oh-my-posh"   # Theme engine for prompt styling
+tap "sinelaw/fresh"               # Fresh text editor tap
 
 # Core CLI Tools
 brew "bat"                        # Modern cat with syntax highlighting
@@ -8,7 +9,7 @@ brew "git"                        # Version control
 brew "gh"                         # GitHub CLI
 brew "htop"                       # Interactive process monitor
 brew "jq"                         # JSON processor
-brew "neovim"                     # Modern Vim editor
+brew "sinelaw/fresh/fresh-editor" # Fresh terminal text editor
 brew "ripgrep"                    # Fast search utility
 brew "tmux"                       # Terminal multiplexer
 brew "tree"                       # Directory tree viewer
