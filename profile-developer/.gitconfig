@@ -1,7 +1,7 @@
 [user]
-    name = Bradley Sakdol
-    email = 1362081+bsakdol@users.noreply.github.com
-    username = bsakdol
+    name = {FULL NAME}
+    email = {MASKED EMAIL}@users.noreply.github.com
+    username = {GITHUB USERNAME}
 
 [includeIf "gitdir:~/projects/github/"]
     path = ~/projects/github/.gitconfig
