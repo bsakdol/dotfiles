@@ -121,6 +121,31 @@ The bootstrap script (`brew-restore.sh` in the Gist) performs these steps:
   - Linux uses Bash (`.bashrc`, `.bash_aliases`, `.bash_environment`)
 - **Universal dotfiles** (git config, themes) are applied only for the Developer profile
 
+## Post-Bootstrap Customization
+
+Some files require user-specific customization after the bootstrap script completes:
+
+### `.gitconfig` (Developer Profile)
+
+The git configuration file is downloaded but **must be customized** with your personal information:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+git config --global user.username "your-github-username"
+```
+
+Or edit `~/.gitconfig` directly to add:
+
+```text
+[user]
+    name = Your Name
+    email = your.email@example.com
+    username = your-github-username
+```
+
+**Note:** This file list may grow as profiles are extended with additional customizable configurations.
+
 ## Maintenance
 
 ### Adding or Updating Packages
