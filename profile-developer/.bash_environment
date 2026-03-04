@@ -19,8 +19,7 @@ export PATH=$PATH:$GOROOT/bin:$GOBIN
 
 # oh-my-posh terminal prompt
 if [ -f /home/linuxbrew/.linuxbrew/bin/oh-my-posh ] && [ "$TERM_PROGRAM" != "vscode" ]; then
-    eval "$(oh-my-posh init bash --config ~/.poshthemes/meridian-2.omp.json)"
-
+    eval "$(/home/linuxbrew/.linuxbrew/bin/oh-my-posh init bash --config ~/.poshthemes/meridian-2.omp.json)"
 else
     PS1="\[$CYAN\]\[$GREEN\][\w]$(__git_ps1)\$ \[$NORMAL\]"
     PS2='\[$GREEN\]continue-> $NORMAL'
