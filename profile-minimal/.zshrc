@@ -12,17 +12,6 @@ autoload -Uz compinit
 compinit
 
 ###############################################################################
-# Prompt / Theme (Oh My Posh)
-###############################################################################
-# Load Oh My Posh for non-Apple terminals.
-# Apple Terminal can be noticeably slower when loading OMP, so we skip it there.
-if [[ "$TERM_PROGRAM" != "Apple_Terminal" ]]; then
-    if command -v oh-my-posh >/dev/null 2>&1; then
-        eval "$(oh-my-posh init zsh --config ~/.poshthemes/meridian-2.omp.json)"
-    fi
-fi
-
-###############################################################################
 # Shell Aliases
 ###############################################################################
 # Load custom alias definitions.
